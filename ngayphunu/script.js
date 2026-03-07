@@ -122,10 +122,13 @@ function createExplosionHeart() {
     }, 1000);
 }
 
-// --- LOGIC NÚT CHÊ CHẠY TRỐN CỰC GẮT ---
+// --- LOGIC NÚT CHÊ CHẠY TRỐN KHI BỊ CLICK ---
 const dislikeBtn = document.getElementById('dislike-btn');
 if (dislikeBtn) {
-    dislikeBtn.addEventListener('mouseover', function() {
+    dislikeBtn.addEventListener('click', function() {
+        // THÊM DÒNG NÀY: Nhấc nút Chê ra khỏi tấm thiệp, gắn thẳng vào màn hình ngoài cùng
+        document.body.appendChild(dislikeBtn);
+        
         const maxX = window.innerWidth - dislikeBtn.offsetWidth - 20;
         const maxY = window.innerHeight - dislikeBtn.offsetHeight - 20;
 
@@ -136,5 +139,8 @@ if (dislikeBtn) {
         dislikeBtn.style.left = randomX + 'px';
         dislikeBtn.style.top = randomY + 'px';
         dislikeBtn.style.zIndex = '9999';
+        
+        // Cà khịa khi click hụt
+        dislikeBtn.innerText = "Muốn chê thì bắt lấy đi này =)))))"; 
     });
 }
