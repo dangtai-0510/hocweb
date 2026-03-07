@@ -1,0 +1,354 @@
+{
+  "shortcuts": [
+    {
+      "id": 1,
+      "software": "VS Code",
+      "action": "Mở terminal tích hợp",
+      "keys": "Ctrl + `",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 2,
+      "software": "VS Code",
+      "action": "Tìm kiếm file",
+      "keys": "Ctrl + P",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 3,
+      "software": "VS Code",
+      "action": "Mở Command Palette",
+      "keys": "Ctrl + Shift + P",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 4,
+      "software": "VS Code",
+      "action": "Comment dòng code",
+      "keys": "Ctrl + /",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 5,
+      "software": "VS Code",
+      "action": "Định dạng code",
+      "keys": "Shift + Alt + F",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 6,
+      "software": "VS Code",
+      "action": "Chia đôi màn hình editor",
+      "keys": "Ctrl + \\",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 7,
+      "software": "VS Code",
+      "action": "Đóng tab hiện tại",
+      "keys": "Ctrl + W",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 8,
+      "software": "VS Code",
+      "action": "Mở terminal tích hợp",
+      "keys": "Cmd + `",
+      "os": "macOS"
+    },
+    {
+      "id": 9,
+      "software": "VS Code",
+      "action": "Tìm kiếm file",
+      "keys": "Cmd + P",
+      "os": "macOS"
+    },
+    {
+      "id": 10,
+      "software": "VS Code",
+      "action": "Mở Command Palette",
+      "keys": "Cmd + Shift + P",
+      "os": "macOS"
+    },
+    {
+      "id": 11,
+      "software": "Terminal",
+      "action": "Xóa màn hình",
+      "keys": "Ctrl + L",
+      "os": "Windows/Linux/macOS"
+    },
+    {
+      "id": 12,
+      "software": "Terminal",
+      "action": "Dừng tiến trình",
+      "keys": "Ctrl + C",
+      "os": "Windows/Linux/macOS"
+    },
+    {
+      "id": 13,
+      "software": "Terminal",
+      "action": "Tìm lệnh đã dùng",
+      "keys": "Ctrl + R",
+      "os": "Windows/Linux/macOS"
+    },
+    {
+      "id": 14,
+      "software": "Terminal",
+      "action": "Đi đầu dòng lệnh",
+      "keys": "Ctrl + A",
+      "os": "Windows/Linux/macOS"
+    },
+    {
+      "id": 15,
+      "software": "Terminal",
+      "action": "Đi cuối dòng lệnh",
+      "keys": "Ctrl + E",
+      "os": "Windows/Linux/macOS"
+    },
+    {
+      "id": 16,
+      "software": "Terminal",
+      "action": "Xóa từ con trỏ đến đầu dòng",
+      "keys": "Ctrl + U",
+      "os": "Windows/Linux/macOS"
+    },
+    {
+      "id": 17,
+      "software": "IntelliJ IDEA",
+      "action": "Tìm kiếm toàn bộ project",
+      "keys": "Ctrl + Shift + F",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 18,
+      "software": "IntelliJ IDEA",
+      "action": "Chạy chương trình",
+      "keys": "Shift + F10",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 19,
+      "software": "IntelliJ IDEA",
+      "action": "Debug chương trình",
+      "keys": "Shift + F9",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 20,
+      "software": "IntelliJ IDEA",
+      "action": "Auto import & tối ưu import",
+      "keys": "Ctrl + Alt + O",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 21,
+      "software": "IntelliJ IDEA",
+      "action": "Rename biến/hàm",
+      "keys": "Shift + F6",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 22,
+      "software": "IntelliJ IDEA",
+      "action": "Generate code (getter/setter...)",
+      "keys": "Alt + Insert",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 23,
+      "software": "Git (CLI)",
+      "action": "Xem trạng thái repo",
+      "keys": "git status",
+      "os": "Tất cả"
+    },
+    {
+      "id": 24,
+      "software": "Git (CLI)",
+      "action": "Stage tất cả thay đổi",
+      "keys": "git add .",
+      "os": "Tất cả"
+    },
+    {
+      "id": 25,
+      "software": "Git (CLI)",
+      "action": "Commit với message",
+      "keys": "git commit -m",
+      "os": "Tất cả"
+    },
+    {
+      "id": 26,
+      "software": "Git (CLI)",
+      "action": "Xem lịch sử commit",
+      "keys": "git log --oneline",
+      "os": "Tất cả"
+    },
+    {
+      "id": 27,
+      "software": "Git (CLI)",
+      "action": "Tạo và chuyển branch mới",
+      "keys": "git checkout -b",
+      "os": "Tất cả"
+    },
+    {
+      "id": 28,
+      "software": "Chrome DevTools",
+      "action": "Mở DevTools",
+      "keys": "F12",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 29,
+      "software": "Chrome DevTools",
+      "action": "Mở DevTools",
+      "keys": "Cmd + Option + I",
+      "os": "macOS"
+    },
+    {
+      "id": 30,
+      "software": "Chrome DevTools",
+      "action": "Inspect phần tử",
+      "keys": "Ctrl + Shift + C",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 31,
+      "software": "Chrome DevTools",
+      "action": "Mở Console",
+      "keys": "Ctrl + Shift + J",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 32,
+      "software": "Chrome DevTools",
+      "action": "Hard reload (xóa cache)",
+      "keys": "Ctrl + Shift + R",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 33,
+      "software": "Vim",
+      "action": "Chuyển sang chế độ Insert",
+      "keys": "i",
+      "os": "Tất cả"
+    },
+    {
+      "id": 34,
+      "software": "Vim",
+      "action": "Thoát chế độ Insert",
+      "keys": "Esc",
+      "os": "Tất cả"
+    },
+    {
+      "id": 35,
+      "software": "Vim",
+      "action": "Lưu file",
+      "keys": ":w",
+      "os": "Tất cả"
+    },
+    {
+      "id": 36,
+      "software": "Vim",
+      "action": "Thoát Vim",
+      "keys": ":q",
+      "os": "Tất cả"
+    },
+    {
+      "id": 37,
+      "software": "Vim",
+      "action": "Lưu và thoát",
+      "keys": ":wq",
+      "os": "Tất cả"
+    },
+    {
+      "id": 38,
+      "software": "Vim",
+      "action": "Tìm kiếm trong file",
+      "keys": "/từ_khóa",
+      "os": "Tất cả"
+    },
+    {
+      "id": 39,
+      "software": "VS Code",
+      "action": "Multi-cursor theo lựa chọn",
+      "keys": "Ctrl + D",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 40,
+      "software": "VS Code",
+      "action": "Di chuyển dòng lên/xuống",
+      "keys": "Alt + ↑/↓",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 41,
+      "software": "Terminal",
+      "action": "Chạy lệnh trước trong lịch sử",
+      "keys": "↑ (mũi tên lên)",
+      "os": "Tất cả"
+    },
+    {
+      "id": 42,
+      "software": "IntelliJ IDEA",
+      "action": "Tìm kiếm mọi thứ",
+      "keys": "Shift + Shift",
+      "os": "Windows/Linux/macOS"
+    },
+    {
+      "id": 43,
+      "software": "Git (CLI)",
+      "action": "Pull code từ remote",
+      "keys": "git pull origin",
+      "os": "Tất cả"
+    },
+    {
+      "id": 44,
+      "software": "Git (CLI)",
+      "action": "Push code lên remote",
+      "keys": "git push origin",
+      "os": "Tất cả"
+    },
+    {
+      "id": 45,
+      "software": "Chrome DevTools",
+      "action": "Toggle device toolbar (mobile view)",
+      "keys": "Ctrl + Shift + M",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 46,
+      "software": "VS Code",
+      "action": "Zen Mode (tập trung)",
+      "keys": "Ctrl + K Z",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 47,
+      "software": "VS Code",
+      "action": "Go to Definition",
+      "keys": "F12",
+      "os": "Windows/Linux/macOS"
+    },
+    {
+      "id": 48,
+      "software": "IntelliJ IDEA",
+      "action": "Quick Fix / Show Intentions",
+      "keys": "Alt + Enter",
+      "os": "Windows/Linux"
+    },
+    {
+      "id": 49,
+      "software": "Terminal",
+      "action": "Thoát shell / đăng xuất",
+      "keys": "Ctrl + D",
+      "os": "Windows/Linux/macOS"
+    },
+    {
+      "id": 50,
+      "software": "Vim",
+      "action": "Xóa toàn bộ dòng",
+      "keys": "dd",
+      "os": "Tất cả"
+    }
+  ]
+}
